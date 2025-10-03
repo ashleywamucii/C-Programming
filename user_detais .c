@@ -1,3 +1,9 @@
+/*
+name:achily wamucii gitari
+reg no:CT101/G/26452/25
+description:progran to enter user details
+*/
+
 #include<stdio.h>
 int main()
 {
