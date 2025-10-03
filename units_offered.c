@@ -1,3 +1,8 @@
+/*
+name:achily wamucii gitari
+reg no:CT101\G\26452\25
+Description:program to disply units
+*/
 #include<stdio.h>
 int main()
 {
