@@ -1,7 +1,7 @@
 /*
 name: gitari achily wamucii
 reg no: CT101/G/26452/25
-description: program to show vacant rooms
+description: program to show rooms occupancy
 */
 
 #include <stdio.h>
@@ -12,7 +12,7 @@ int main() {
     int occupancy[5][10];
     int floor, room, occupied, vacant;
 
-    srand(time(0)); // for random data
+    srand(time(0)); 
 
     printf("Room Occupancy (1 = occupied, 0 = vacant):\n\n");
 
@@ -22,7 +22,7 @@ int main() {
         
         printf("Floor %d: ", floor + 1);
         for(room = 0; room < 10; room++) {
-            occupancy[floor][room] = rand() % 2; // random 0 or 1
+            occupancy[floor][room] = rand() % 2; 
             printf("%d ", occupancy[floor][room]);
             
             if(occupancy[floor][room] == 1)
@@ -35,4 +35,5 @@ int main() {
     }
 
     return 0;
+
 }
